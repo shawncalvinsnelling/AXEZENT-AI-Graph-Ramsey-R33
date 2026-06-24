@@ -1,0 +1,23 @@
+Repository name:
+AXEZENT-AI-Graph-Ramsey-R33
+
+Description:
+Finite certificate for R(3,3)=6 using K5 avoider and exhaustive K6 coloring verification.
+
+Main upload commit summary:
+feat: add Axezent AI Ramsey R33 finite certificate
+
+Main upload extended description:
+Adds finite verification artifact for R(3,3)=6, including K5 avoider, exhaustive 32768-coloring K6 verifier, tests, logo, and receipt path.
+
+After main upload, create this file manually in GitHub:
+.github/workflows/ci.yml
+
+Copy contents from:
+CI_WORKFLOW_TO_ADD_AFTER_UPLOAD.yml
+
+CI commit summary:
+ci: add verification workflow
+
+CI extended description:
+Adds GitHub Actions workflow to install the package and run verification tests on push and pull request.
